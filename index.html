@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./js/script.js"></script>
+    <title>SBA 308</title>
+    <link rel="stylesheet" href="./styles/style.css">
+
+
+    <style>
+        body {
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#guide">Pokedex</a></li>
+            <li><a href="#discuss">Help</a></li>
+            
+          
+        </ul>
+    </nav>
+
+    <div class="middle">
+        <h3>Type a name of a Pokemon to get an image of it!</h3>
+           <!-- Pokemon code-->
+    <input type="text" id="pokemonName" placeholder="Enter Pokemon Name">
+    <button onclick="fetchData()"> Catch That Pokemon!</button><br>
+
+    <img src ="" alt="Pokemon Image" id="pokemonSprite" style="display: none">
+    </div>
+
+ 
+
+
+</body>
+
+</html>
